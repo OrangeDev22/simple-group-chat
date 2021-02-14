@@ -1,0 +1,57 @@
+:root {
+  --clr-primary-background: #36393f;
+  --clr-primary-background-clear: #484c53;
+  --clr-primary-link: rgb(39, 168, 255);
+  --clr-contrast: #18191c;
+  --clr-sidebar-background: #2f3136;
+  --clr-sidebar-background-dark: #242529;
+  --clr-sidebar-background-light: #41444b;
+  --clr-contrast-light: #292929;
+  --clr-bordert: #575757;
+  --clr-label: #909090;
+  --clr-primary-link-hover: rgb(120, 201, 255);
+  --clr-error: #ff0033;
+  --clr-primary-background-dark: #2f3136;
+}
+
+body {
+  color: white !important;
+  border-color: black !important;
+  background-color: var(--clr-primary-background) !important;
+}
+
+.list-group-item {
+  background: var(--clr-sidebar-background) !important;
+  color: white !important;
+}
+
+.list-group-item.active {
+  background: var(--clr-sidebar-background-dark) !important;
+}
+
+.modal-content {
+  background: var(--clr-primary-background) !important;
+}
+
+.nav-link.active {
+  background-color: var(--clr-primary-background-dark) !important;
+  color: white !important;
+}
+
+.button.close {
+  background-color: white !important;
+}
+
+.close {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.input-group > .form-control {
+  color: white !important;
+  background: var(--clr-sidebar-background-dark) !important;
+}
+
+.sidebar {
+  background: var(--clr-sidebar-background);
+}
