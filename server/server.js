@@ -1,5 +1,7 @@
 require("dotenv").config();
 
+console.log("--fe server", process.env.FE_SERVER);
+
 const io = require("socket.io")({
   cors: {
     origin: process.env.FE_SERVER || "http://localhost:3000",
