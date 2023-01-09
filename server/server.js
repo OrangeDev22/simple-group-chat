@@ -3,7 +3,7 @@ const io = require("socket.io")({
     origin: "http://localhost:3000",
     methods: ["GET", "POST"],
   },
-}).listen(4000);
+}).listen(process.env.PORT || 4000);
 
 io.on("connection", (socket) => {
   const id = socket.handshake.query.id;
